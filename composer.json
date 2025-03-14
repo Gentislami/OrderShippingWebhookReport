@@ -1,0 +1,25 @@
+{
+    "name": "gent-islami/order-shipping-webhook-report",
+    "description": "A simple plugin that sends data to a webhook on order status change to shipped.",
+    "authors": [
+        {
+            "name" : "Gent Islami https://github.com/gentislami"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "GentIslami\\OrderShippingWebhookReport\\OrderShippingWebhookReportPlugin",
+        "label": {
+            "en-GB": "Order Shipping Webhook Report"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "GentIslami\\OrderShippingWebhookReport\\": "src/"
+        }
+    }
+}
